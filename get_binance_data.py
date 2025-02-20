@@ -45,7 +45,7 @@ def webhook():
 
 # Check for fakeouts
 def check_conditions(hourly_high, hourly_low, hourly_close):
-    alert_message = ""
+    alert_message = "test"
 
     for h in daily_highs + weekly_highs + monthly_highs:
         if hourly_high > h and hourly_close < h:
