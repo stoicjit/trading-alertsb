@@ -1,5 +1,6 @@
 import requests
 import asyncio
+import os
 from telegram import Bot
 from binance.client import Client
 
